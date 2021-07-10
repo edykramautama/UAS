@@ -35,7 +35,7 @@ bot.on('message', (msg) => {
         s = msg.text.split("|");
         x1 = s[0]
         x2 = s[1]
-        x3 = s[1]
+        x3 = s[2]
         model.predict(
             [
                 parseFloat(s[0]),
